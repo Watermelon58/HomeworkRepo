@@ -1,8 +1,11 @@
-﻿#include <iostream>
+#include "Mann.h"
 
-int main()
+Mann::Mann()
 {
-    std::cout << "Hello World!\n"; 
+
 }
-//Please ...
-//This is a test!
+
+Mann::~Mann()
+{
+
+}

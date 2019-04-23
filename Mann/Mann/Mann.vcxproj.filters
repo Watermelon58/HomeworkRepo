@@ -13,10 +13,96 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="头文件\Worker">
+      <UniqueIdentifier>{9e19e2bc-cdee-4a47-b242-7bd55b77779c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Officer">
+      <UniqueIdentifier>{782d7e0f-f3e6-4c2e-86e5-441f28a243c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Worker">
+      <UniqueIdentifier>{5a5dcad2-8526-4324-914a-38c280fa2c4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Officer">
+      <UniqueIdentifier>{96f75f5a-9d11-464b-b8d1-dfcb03d46dc4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Chatter.cpp">
+      <Filter>源文件\Worker</Filter>
+    </ClCompile>
+    <ClCompile Include="FileManager.cpp">
+      <Filter>源文件\Worker</Filter>
+    </ClCompile>
+    <ClCompile Include="Interneter.cpp">
+      <Filter>源文件\Worker</Filter>
+    </ClCompile>
+    <ClCompile Include="MusicPlayer.cpp">
+      <Filter>源文件\Worker</Filter>
+    </ClCompile>
+    <ClCompile Include="Time.cpp">
+      <Filter>源文件\Worker</Filter>
+    </ClCompile>
+    <ClCompile Include="Calender.cpp">
+      <Filter>源文件\Officer</Filter>
+    </ClCompile>
+    <ClCompile Include="WeatherForecaster.cpp">
+      <Filter>源文件\Officer</Filter>
+    </ClCompile>
+    <ClCompile Include="Reminder.cpp">
+      <Filter>源文件\Officer</Filter>
+    </ClCompile>
+    <ClCompile Include="Mapper.cpp">
+      <Filter>源文件\Officer</Filter>
+    </ClCompile>
+    <ClCompile Include="MoodRegular.cpp">
+      <Filter>源文件\Officer</Filter>
+    </ClCompile>
+    <ClCompile Include="OMusicPlayer.cpp">
+      <Filter>源文件\Officer</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
     <ClCompile Include="Mann.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Chatter.h">
+      <Filter>头文件\Worker</Filter>
+    </ClInclude>
+    <ClInclude Include="Interneter.h">
+      <Filter>头文件\Worker</Filter>
+    </ClInclude>
+    <ClInclude Include="FileManager.h">
+      <Filter>头文件\Worker</Filter>
+    </ClInclude>
+    <ClInclude Include="MusicPlayer.h">
+      <Filter>头文件\Worker</Filter>
+    </ClInclude>
+    <ClInclude Include="Time.h">
+      <Filter>头文件\Worker</Filter>
+    </ClInclude>
+    <ClInclude Include="Mann.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Calendar.h">
+      <Filter>头文件\Officer</Filter>
+    </ClInclude>
+    <ClInclude Include="WeatherForecaster.h">
+      <Filter>头文件\Officer</Filter>
+    </ClInclude>
+    <ClInclude Include="Reminder.h">
+      <Filter>头文件\Officer</Filter>
+    </ClInclude>
+    <ClInclude Include="Mapper.h">
+      <Filter>头文件\Officer</Filter>
+    </ClInclude>
+    <ClInclude Include="MoodRegular.h">
+      <Filter>头文件\Officer</Filter>
+    </ClInclude>
+    <ClInclude Include="OMusicPlayer.h">
+      <Filter>头文件\Officer</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

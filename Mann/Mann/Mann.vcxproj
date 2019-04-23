@@ -84,7 +84,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
@@ -151,9 +151,35 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Mann.cpp">
+    <ClCompile Include="Calender.cpp" />
+    <ClCompile Include="Chatter.cpp" />
+    <ClCompile Include="FileManager.cpp" />
+    <ClCompile Include="Interneter.cpp" />
+    <ClCompile Include="test.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="Mapper.cpp" />
+    <ClCompile Include="MoodRegular.cpp" />
+    <ClCompile Include="MusicPlayer.cpp" />
+    <ClCompile Include="OMusicPlayer.cpp" />
+    <ClCompile Include="Reminder.cpp" />
+    <ClCompile Include="Mann.cpp" />
+    <ClCompile Include="Time.cpp" />
+    <ClCompile Include="WeatherForecaster.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Calendar.h" />
+    <ClInclude Include="Chatter.h" />
+    <ClInclude Include="FileManager.h" />
+    <ClInclude Include="Interneter.h" />
+    <ClInclude Include="Mann.h" />
+    <ClInclude Include="Mapper.h" />
+    <ClInclude Include="MoodRegular.h" />
+    <ClInclude Include="MusicPlayer.h" />
+    <ClInclude Include="OMusicPlayer.h" />
+    <ClInclude Include="Reminder.h" />
+    <ClInclude Include="Time.h" />
+    <ClInclude Include="WeatherForecaster.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
